@@ -1,0 +1,119 @@
+html,body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(207, 207, 207);
+}
+nav a, button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+nav a:hover, button a:hover {
+    text-decoration: none ;
+    color: white;
+}
+
+.main-center {
+  position: absolute; /* or absolute */
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+.main-center button {
+    font-size: 35px;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #E59500;
+}
+.main-center button:hover {
+  font-size: 37px;
+}
+
+/* builtpackage */
+.cardx {
+    margin: 25px 40px;
+    max-width: 18rem;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+.card-body {
+  margin-left: 120px;
+  
+}
+.cardheader {
+  border-bottom: #333 solid 0.3px;
+  padding: 10px;
+  text-align: center;
+}
+.cardx a {
+  text-decoration: none;
+  color: black;
+}
+ .cardx a:hover {
+   color: black;
+ }
+
+/* popup */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+ 
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 120px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  height: 410px;
+}
+
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: rgb(216, 13, 6);
+}
+ .content {
+  max-height: 280px;
+  overflow-y: auto;
+}
+.overlay_innbuilt_package {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+.popup button {
+    margin-top: 10px;
+    text-align: center;
+    float: right;
+}

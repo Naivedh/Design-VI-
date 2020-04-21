@@ -1,0 +1,213 @@
+{
+    "packages": [
+        {
+            "package_id": "1",
+            "package_name": "Andaman Tour Package",
+            "package_image":"./img/Andaman.jpg",            
+            "package_description": "The tropical island of Andaman beckons travelers to embark on an exotic vacation to this Indian wonderland. A 3 nights 4 days package for Andaman is apt for travelers to enjoy a short and crisp vacation in the island city. Booking these Andaman tour packages are the best means to explore the island in an organized, and hassle-free manner. ",
+            "package_price": "₹ 22,997/-",
+            "content": [
+                {
+                    "id": "01",
+                    "day": "Day 1",
+                    "place": "Cellular Jail | Corbyn’s Cave | Light and Sound show "
+                },
+                {
+                    "id": "02",
+                    "day": "Day 2",
+                    "place": "North Bay island | Smith Island | Ross Island"
+                },
+                {
+                    "id": "03",
+                    "day": "Day 3",
+                    "place": "Baratang Island | Limestone Caves | Safari"
+                },
+                {
+                    "id": "04",
+                    "day": "Day 4 ",
+                    "place": "Port Blair |  Departure"
+                }
+            ]
+        },
+        {
+            "package_id": "2",
+            "package_name": "Shillong Guwahati Package",
+            "package_image": "./img/shilong.jpg",
+            "package_description": "Shillong and Guwahati make up for the two most beautiful destinations in India. This Independence day, head to these amazing cities for a break. Our special deal package for TravelTriangle presents an amazing North East tour Package which covers the best of North-East India. This North East tour packages has been beautifully designed to include some of the most scenic spots in the entire region. From the Rock Capital of Shillong to the river cruise in the mighty Brahmaputra River, this package has it all for you to give you the most memorable tour.",
+            "package_price": "₹ 23,499/-",
+            "content": [
+                {
+                    "id": "01",
+                    "day": "Day 1",
+                    "place": "Arrival | Leisure Day"
+                },
+                {
+                    "id": "02",
+                    "day": "Day 1",
+                    "place": "Shillong – Cherrapunjee Stay | Sightseeing"
+                },
+                {
+                    "id": "03",
+                    "day": "Day 3",
+                    "place": "Cherrapunjee – Double Decker | Sightseeing"
+                },
+                {
+                    "id": "04",
+                    "day": "Day 4",
+                    "place": "Cherrapunjee : Dawki and Mawlynnong Sightseeing"
+                },
+                {
+                    "id": "05",
+                    "day": "Day 5",
+                    "place": "Shillong – Jowai"
+                },
+                {
+                    "id": "06",
+                    "day": "Day 6",
+                    "place": "Guwahati : Transfer from Shillong"
+                },
+                {
+                    "id": "07",
+                    "day": "Day 7",
+                    "place": "Departure"
+                }
+            ]
+        },
+        {
+            "package_id": "3",
+            "package_name": " Mauritius Tour Package",
+            "package_image": "./img/mauritius.jpg",
+            "package_description": "Get your love life a romantic start by booking this fully customizable 4 nights 5 days Mauritius honeymoon package that takes you to some really romantic and enticing tourist places. Famous as the ‘Star and Key of the Indian Ocean’, Mauritius is home to pristine beaches, palm-laden environment, crystal clear waters, tropical waterfalls, volcanoes and more.",
+            "package_price": "₹31,214/-",
+            "content": [
+                {
+                    "id": "01",
+                    "day": "Day 1",
+                    "place": "Leisure-Day | Beach Walk | Scenic views"
+                },
+                {
+                    "id": "02",
+                    "day": "Day 2",
+                    "place": " Visit to Ile aux Cerfs Island"
+                },
+                {
+                    "id": "03",
+                    "day": "Day 3",
+                    "place": "Le Caudan Waterfront | Champ de Mars | City Tour"
+                },
+                {
+                    "id": "04",
+                    "day": "Day 4",
+                    "place": "360 Degree View | Grand Bassin Temple | Chamarel Waterfall | Trou aux Cerfs"
+                },
+                {
+                    "id": "05",
+                    "day": "Day 5",
+                    "place": "Departure"
+                }
+            ]
+        },
+        {
+            "package_id": "4",
+            "package_name": " Goa Package ",
+            "package_image": "./img/Goa.jpg",
+            "package_description": "Everybody plans for a Goa trip, when they want to get away from it all. An ideal Goa trip for 4 days, like this one, is sure to tickle your fancy for being short and full of activities. Despite taking you to all major locations across Goa, it gives you leisure time to explore this dream destination. ",
+            "package_price": "₹ 11,500/-",
+            "content": [
+                {
+                    "id": "01",
+                    "day": "Day 1",
+                    "place": "Arrival | Leisure Day"
+                },
+                {
+                    "id": "02",
+                    "day": "Day 2",
+                    "place": "Beach Tour | Fort Aguada | Sightseeing"
+                },
+                {
+                    "id": "03",
+                    "day": "Day 3",
+                    "place": "South Goa Sightseeing Tour"
+                },
+                {
+                    "id": "04",
+                    "day": "Day 4",
+                    "place": "Departure"
+                }
+            ]
+        },
+        {
+            "package_id": "5",
+            "package_name": "Adventurous Kasol Package",
+            "package_image": "./img/kasol.jfif",
+            "package_description": "Planning a Kasol trip? Book an enthralling 6 nights 5 days Kasol tour package to explore the alluring natural bounties of the Parvati Valley during your vacation. Spend some time away from the bustling city life, in a serene environment, amidst the cool and unadulterated winds of the lush green mountains, during your Kasol trip. Kasol in Himachal Pradesh is famous as the ultimate destination for party and music. ",
+            "package_price": "₹ 16,500/-",
+            "content": [
+                {
+                    "id": "01",
+                    "day": "Day 1",
+                    "place": "Road Trip | Overnight Journey"
+                },
+                {
+                    "id": "02",
+                    "day": "Day 2",
+                    "place": "Local market | Leisure Day"
+                },
+                {
+                    "id": "03",
+                    "day": "Day 3",
+                    "place": "Kheerganga trek | Trekking | Camping | Hot Water Spring"
+                },
+                {
+                    "id": "04",
+                    "day": "Day 4",
+                    "place": "Tosh village | Trekking"
+                },
+                {
+                    "id": "05",
+                    "day": "Day 5",
+                    "place":  "Manikaran | Sightseeing"
+                },
+                {
+                    "id": "06",
+                    "day": "Day 6",
+                    "place": "Malana village trek"
+                }
+            ]
+        },
+        {
+            "package_id": "6",
+            "package_name": " Himachal Family Package",
+            "package_image": "./img/himachal.jpg",
+            "package_description": "This 4 nights 5 days Himachal family package from Delhi takes you to scenic towns of Manali and Shimla. Enclosed by snow clad mountains, these towns enrich your family trip with visits to monasteries, gurudwaras, temples, and hot sulphur springs. With your family tour package for Himachal, you can also enjoy various snow sports as well as experience riding yak and horse. ",
+            "package_price": "₹ 12,000/-",
+            "content": [
+                {
+                    "id": "01",
+                    "day": "Day 1",
+                    "place": "Manali: Arrive and delight in a day at leisure "
+                },
+                {
+                    "id": "02",
+                    "day": "Day 2",
+                    "place": "Hadimba Devi Temple | Tibetan Monastery | Vashisht Hot Springs"
+                },
+                {
+                    "id": "03",
+                    "day": "Day 3",
+                    "place": "A splendid Solang Valley trip"
+                },
+                {
+                    "id": "04",
+                    "day": "Day 4",
+                    "place": "Manikaran | Manikaran Gurudwara"
+                },
+                {
+                    "id": "05",
+                    "day": "Day 5",
+                    "place": "Sightseeing and departure back home "
+                }
+            ]
+        }
+    ]
+}
