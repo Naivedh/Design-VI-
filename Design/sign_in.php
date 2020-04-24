@@ -11,9 +11,7 @@ unset ($_SESSION['user_pass']);
 
 if($_SERVER["REQUEST_METHOD"] == "POST")
 {
-$con = mysqli_connect('localhost', 'root', '');
-
-mysqli_select_db($con, 'travel');
+include ("connect.php"); 
 
 $name = $_POST['user_name'];
 $pass = $_POST['user_pass'];

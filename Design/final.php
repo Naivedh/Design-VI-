@@ -9,9 +9,7 @@
 
          if($_SERVER["REQUEST_METHOD"] == "POST") {
 
-             $con = mysqli_connect('localhost', 'root', '');
-
-             mysqli_select_db($con, 'travel');
+             include ("connect.php");
 
             $package_name=$_POST['package_name'];
 
@@ -24,7 +22,7 @@
             $inputZip = $_POST['inputZip'];
     
             $address = $inputAddress." " . $inputAddress2;
-            $reg = "insert into inbuilt (name, number, address, city, state, zip, package) values ('$name','$number','$address','$inputCity', '$inputState', '$inputZip', '$package_name')";
+            $reg = "insert into inbuilt (user_name, name, number, address, city, state, zip, package) values ('$user_name', '$name','$number','$address','$inputCity', '$inputState', '$inputZip', '$package_name')";
             mysqli_query($con, $reg);
             
         }

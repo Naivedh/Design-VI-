@@ -5,13 +5,11 @@
         if(isset($_SESSION['user_name']))
         {
             $user_name = $_SESSION['user_name'];
-        
+            $aplace = $_SESSION['place'];
 
          if($_SERVER["REQUEST_METHOD"] == "POST") {
 
-            $con = mysqli_connect('localhost', 'root', '');
-
-            mysqli_select_db($con, 'travel');
+            include ("connect.php");
 
             $name = $_POST['name'];
             $number = $_POST['number'];
@@ -20,11 +18,11 @@
             $inputCity = $_POST['inputCity'];
             $inputState = $_POST['inputState'];
             $inputZip = $_POST['inputZip'];
-            $aplace = $_POST['places'];
+            
             $places = serialize($aplace);
             $address = $inputAddress." " . $inputAddress2;
 
-            $reg = "insert into create_package (name, number, address, city, state, zip, places) values ('$name','$number','$address','$inputCity', '$inputState', '$inputZip', '$places')";
+            $reg = "insert into create_package (user_name, name, number, address, city, state, zip, places) values ('$user_name', '$name','$number','$address','$inputCity', '$inputState', '$inputZip', '$places')";
             mysqli_query($con, $reg);
             
             

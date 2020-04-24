@@ -4,9 +4,7 @@ session_start();
 
 if($_SERVER["REQUEST_METHOD"] == "POST")
 {
-$con = mysqli_connect('localhost', 'root', '');
-
-mysqli_select_db($con, 'travel');
+include ("connect.php");
 
 $name = $_POST['user_name'];
 $email = $_POST['user_email'];

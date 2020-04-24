@@ -8,14 +8,13 @@
         
 
          if($_SERVER["REQUEST_METHOD"] == "POST") {
-            // $package_name=$_POST['package_name'];
+            
             if(isset($_POST['formplace'])){
-                $aplace = $_POST['formplace'];        
+                $aplace = $_POST['formplace']; 
+                //store in session
+                $_SESSION['place'] = $aplace;       
+                
                 $N = count($aplace);
-                for($i=0; $i < $N; $i++)
-                {
-                // echo($aplace[$i] . " <br>");
-                }
             }
 
            
@@ -82,7 +81,7 @@
             </div>
         </div>
 
-        <input type="text" name="places[]"style="display:none;" value="<?php print_r($aplace) ?>">
+      
         <button type="submit" class="btn btn-primary">BOOK</button>
     </form>
 </div>

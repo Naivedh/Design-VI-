@@ -5,9 +5,7 @@
         {
             $user_name = $_SESSION['user_name'];
        
-        $con = mysqli_connect('localhost', 'root', '', 'travel');
-        // mysqli_select_db($con, 'travel');
-        
+       include ("connect.php");
         $s = "select * from user where user_name = '$user_name' ";
         $result = mysqli_query($con, $s);
       
@@ -16,9 +14,7 @@
 if($_SERVER["REQUEST_METHOD"] == "POST")
 {
 
-$con = mysqli_connect('localhost', 'root', '');
-
-mysqli_select_db($con, 'travel');
+include ("connect.php");
 
 
 $email = $_POST['user_email'];
